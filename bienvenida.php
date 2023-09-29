@@ -12,8 +12,13 @@ $usuario = $_SESSION["usuario"];
 <head>
     <title>Bienvenido</title>
 </head>
+<?php
+$usuario = "NombreUsuario"; // Reemplaza 'NombreUsuario' con el nombre que desees mostrar.
+$pagina = "Guanajuato";
+?>
+
 <body>
-    <h1>Bienvenido, <?php echo $usuario; ?>!</h1>
-    <p>Aquí encontrarás información sobre Guanajuato.</p>
+    <h1>Bienvenido, <?php echo $usuario; ?>! Aquí encontrarás información sobre <?php echo $pagina; ?>.</h1>
 </body>
+
 </html>
